@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-20190721LKTT",
+    "children" : [ {
+      "name" : "2660-MainThread",
+      "children" : [ {
+        "name" : "按条件【单次点播】进行查询",
+        "uid" : "b2c87fba615c7cab",
+        "parentUid" : "f1d35e0fa2f1dee182a3ff42b1493af9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583910091237,
+          "stop" : 1583910094478,
+          "duration" : 3241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "按条件【连续性包月】进行查询",
+        "uid" : "b8906d2097361114",
+        "parentUid" : "f1d35e0fa2f1dee182a3ff42b1493af9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583910094503,
+          "stop" : 1583910096366,
+          "duration" : 1863
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f1d35e0fa2f1dee182a3ff42b1493af9"
+    } ],
+    "uid" : "c30e29def5c3ab41e1d758a53ba49f87"
+  } ]
+}

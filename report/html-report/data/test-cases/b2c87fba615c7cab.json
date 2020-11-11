@@ -1,0 +1,61 @@
+{
+  "uid" : "b2c87fba615c7cab",
+  "name" : "按条件【单次点播】进行查询",
+  "fullName" : "test_product_manage.Test_ConProConf#testqueryby_protype_dcdb",
+  "historyId" : "bc64555d7ad044a111765758bc08cfbd",
+  "time" : {
+    "start" : 1583910091237,
+    "stop" : 1583910094478,
+    "duration" : 3241
+  },
+  "description" : "查询条件选择【单次点播】进行查询",
+  "descriptionHtml" : "<p>查询条件选择【单次点播】进行查询</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "内容型产品配置"
+  }, {
+    "name" : "story",
+    "value" : "产品查询"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_manage"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ConProConf"
+  }, {
+    "name" : "host",
+    "value" : "PC-20190721LKTT"
+  }, {
+    "name" : "thread",
+    "value" : "2660-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_manage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b2c87fba615c7cab.json",
+  "parameterValues" : [ ]
+}

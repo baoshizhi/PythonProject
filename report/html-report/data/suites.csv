@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 11 15:01:34 CST 2020","Wed Mar 11 15:01:36 CST 2020","1863","","test_product_manage","Test_ConProConf","","","按条件【连续性包月】进行查询","查询条件选择【连续性包月】进行查询"
+"passed","Wed Mar 11 15:01:31 CST 2020","Wed Mar 11 15:01:34 CST 2020","3241","","test_product_manage","Test_ConProConf","","","按条件【单次点播】进行查询","查询条件选择【单次点播】进行查询"

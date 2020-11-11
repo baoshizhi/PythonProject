@@ -1,0 +1,21 @@
+[ {
+  "uid" : "b8906d2097361114",
+  "name" : "按条件【连续性包月】进行查询",
+  "time" : {
+    "start" : 1583910094503,
+    "stop" : 1583910096366,
+    "duration" : 1863
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2c87fba615c7cab",
+  "name" : "按条件【单次点播】进行查询",
+  "time" : {
+    "start" : 1583910091237,
+    "stop" : 1583910094478,
+    "duration" : 3241
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "内容型产品配置",
+    "children" : [ {
+      "name" : "产品查询",
+      "children" : [ {
+        "name" : "按条件【单次点播】进行查询",
+        "uid" : "b2c87fba615c7cab",
+        "parentUid" : "67f7e56dd3f12a543dd969b7431b467b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583910091237,
+          "stop" : 1583910094478,
+          "duration" : 3241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "按条件【连续性包月】进行查询",
+        "uid" : "b8906d2097361114",
+        "parentUid" : "67f7e56dd3f12a543dd969b7431b467b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583910094503,
+          "stop" : 1583910096366,
+          "duration" : 1863
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "67f7e56dd3f12a543dd969b7431b467b"
+    } ],
+    "uid" : "9ada688ed01351396022b434ece61c28"
+  } ]
+}

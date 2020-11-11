@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<excel_config>
+    <!--excel表路径-->
+    <excel_path >E:\data_excel\五中心测试101.xlsx</excel_path>
+
+    <!--测试起始sheet表序号(计数规则:从1开始)-->
+    <sheet_start>1</sheet_start>
+    <!--测试结束sheet表序号(计数规则:从1开始)，sheet_stop_tag值为on时生效-->
+    <sheet_stop>1</sheet_stop>
+    <!--控制sheet_stop字段,为【on】时按设定的sheet表执行结束后停止执行，为【off】执行所有sheet表-->
+    <sheet_stop_tag>off</sheet_stop_tag>
+
+
+    <!--测试起始数据行序号(计数规则:从1开始)-->
+    <row_start>3</row_start>
+    <!--测试结束行序号(计数规则:从1开始)，row_stop_tag值为on时生效-->
+    <row_stop>4</row_stop>
+    <!--控制row_stop字段,为【on】时按设定的结束行执行结束后停止执行，为【off】执行所有行-->
+    <row_stop_tag>off</row_stop_tag>
+
+    <!--主机地址所在列序号(列计数从1开始)-->
+    <request_host_col>7</request_host_col>
+    <!--excel表中request请求接口类型(post/get)所在的列序号(列计数从1开始-->
+    <request_type_col>8</request_type_col>
+    <!--excel表中request请求体数据所在的列序号(列计数从1开始)-->
+    <request_text_col>9</request_text_col>
+    <!--excel表中request请求后返回的数据预期值所在的列序号(列计数从1开始)-->
+    <expect_text_col>10</expect_text_col>
+
+    <!--函数指定的待返回数据类型分为-->
+    <resp_type>
+        <!--主机host-->
+        <type>host</type>
+
+        <!--请求类型send_type-->
+        <type>send_type</type>
+
+        <!--请求体数据send_data-->
+        <type>send_data</type>
+
+        <!--预期数据exp_data-->
+        <type>exp_data</type>
+    </resp_type>
+
+    <!--测试执行状态列序号,执行后，填充【已执行】-->
+    <test_status_col>11</test_status_col>
+    <test_status>已执行</test_status>
+
+
+    <!--测试结果描述列序号-->
+    <test_result_col>12</test_result_col>
+    <!--测试结果说明，分为【通过]与【未通过】-->
+    <test_result>
+        <result>通过</result>
+        <result>未通过</result>
+    </test_result>
+
+    <!--返回的结果报文插入表格中的目标列序号-->
+    <resp_data_col>13</resp_data_col>
+
+</excel_config>
+
+
